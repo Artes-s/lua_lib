@@ -51,7 +51,7 @@ local function FirstDerma()
 	
 end
 
-timer.Simple( 1 , FirstDerma() )
+timer.Simple( 1, function() FirstDerma() end )
 
 
 
